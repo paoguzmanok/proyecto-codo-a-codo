@@ -1,10 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+.card-img-top {
+  width: 550px;
+}
 @media (max-width: 769px) {
   .row {
-    display: flex;
-    margin-left: 150px;
-    flex-wrap: wrap;
-    width: 5px;
+    justify-content: space-around;
+    width: 10px;
     height: 100%;
+    flex-wrap: nowrap;
   }
   .card-h {
     display: flex;
