@@ -37,4 +37,32 @@
     gap: 2%;
     padding-left: 10px;
   }
+  /* #ticketsCards {
+    flex-wrap: wrap;
+  } */
+}
+/* -----------------------------------------------------Css Tickets-------------------------------------------------------- */
+#ticketsCards {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1%;
+}
+
+.card {
+  border: solid 2px blue;
+  text-align: center;
+}
+
+#formTickets {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.input-group {
+  background-color: aquamarine;
+}
+button {
+  width: 40%;
 }
