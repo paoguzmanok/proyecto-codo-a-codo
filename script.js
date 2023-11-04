@@ -10,5 +10,5 @@ function resumen() {
   let precioSinDescuento = valorTickets * cantidad;
   let descuento = (precioSinDescuento * categoria) / 100;
   let precioFinal = precioSinDescuento - descuento;
-  total1.innerText = Number(precioFinal);
+  total1.innerText = parseInt(precioFinal);
 }
